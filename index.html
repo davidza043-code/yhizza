@@ -1,68 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Feliz Día de la Novia ❤️</title>
+<title>Para Yhizza ❤️</title>
+
 <style>
 body{
-background:linear-gradient(#ffd1dc,#fff0f5);
+background:linear-gradient(#1a001f,#ff9eb5);
 font-family:Arial;
 text-align:center;
-color:#8b0038;
-padding:20px;
+color:white;
+padding:30px;
 }
+
 h1{
 font-size:40px;
 }
+
+button{
+background:#ff3366;
+color:white;
+border:none;
+padding:15px 30px;
+border-radius:30px;
+font-size:20px;
+cursor:pointer;
+}
+
 .carta{
+display:none;
 background:white;
+color:#6b1b3a;
 padding:25px;
 border-radius:20px;
-box-shadow:0 0 15px #aaa;
+margin-top:20px;
+box-shadow:0 0 20px #333;
 }
+
+img{
+width:250px;
+border-radius:20px;
+margin:10px;
+}
+
 .corazon{
-font-size:50px;
+font-size:60px;
 animation:latir 1s infinite;
 }
+
 @keyframes latir{
-50%{transform:scale(1.2);}
+50%{transform:scale(1.3);}
 }
+
 </style>
+
+<script>
+function abrir(){
+document.getElementById("carta").style.display="block";
+}
+</script>
+
 </head>
 
 <body>
 
-<h1>Feliz Día de la Novia, Yhizza ❤️</h1>
+<h1>Para Yhizza ❤️</h1>
 
 <div class="corazon">❤️</div>
 
-<div class="carta">
+<p>
+Tengo una pequeña sorpresa para ti...
+</p>
+
+<button onclick="abrir()">Ábreme ❤️</button>
+
+
+<div class="carta" id="carta">
+
+<h2>Mi hermosa Yhizza ❤️</h2>
 
 <p>
-Mi hermosa Yhizza ❤️
+Hoy quiero dedicarte estas palabras porque eres una persona
+muy especial en mi vida.
 </p>
 
 <p>
-Hoy quiero recordarte lo especial que eres para mí.
-Gracias por llegar a mi vida, por cada sonrisa, cada conversación
-y cada momento que hemos compartido.
+Gracias por cada sonrisa, cada conversación y cada momento
+que hemos compartido. Gracias por dejarme conocer tu corazón
+y por formar parte de mi historia.
 </p>
 
 <p>
-No prometo que todo será perfecto, pero sí prometo seguir
-esforzándome, cuidarte, respetarte y valorar la hermosa persona
-que eres.
+Sé que no somos perfectos y que pueden existir días difíciles,
+pero quiero que sepas que mi cariño por ti es sincero y que
+valoro mucho tenerte conmigo.
 </p>
 
 <p>
-Espero que siempre recuerdes lo mucho que te quiero y lo feliz
-que me hace tenerte a mi lado.
+Espero seguir creando recuerdos contigo, apoyarte, cuidarte
+y demostrarte lo importante que eres para mí.
 </p>
 
 <p>
-Con mucho cariño, para ti ❤️
+Te quiero mucho, Yhizza ❤️
 </p>
 
 </div>
+
+
+<h2>Mis recuerdos contigo 📸</h2>
+
+<p>
+Aquí puedes poner tus fotos después:
+</p>
+
+<img src="foto1.jpg">
 
 <h2>Una canción para ti 🎵</h2>
 
